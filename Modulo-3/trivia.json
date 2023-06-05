@@ -1,0 +1,59 @@
+{
+  "preguntas": [
+    {
+      "enunciado": "¿Cuál es el año de lanzamiento del primer iPhone?",
+      "opciones": [
+        "2006",
+        "2007",
+        "2008",
+        "2009"
+      ],
+      "respuesta_correcta": "2007",
+      "explicacion": "La respuesta correcta es 2007, ya que ese fue el año en el que Apple lanzó el primer iPhone al mercado, revolucionando la industria de los teléfonos inteligentes."
+    },
+    {
+      "enunciado": "¿Cuál es el río más largo de África?",
+      "opciones": [
+        "Nilo",
+        "Congo",
+        "Níger",
+        "Zambeze"
+      ],
+      "respuesta_correcta": "Nilo",
+      "explicacion": "La respuesta correcta es Nilo, ya que es el río más largo de África, con una longitud aproximada de 6,650 kilómetros."
+    },
+    {
+      "enunciado": "¿Cuál es el nombre del primer satélite artificial lanzado al espacio?",
+      "opciones": [
+        "Explorer 1",
+        "Sputnik 1",
+        "Vostok 1",
+        "Apollo 11"
+      ],
+      "respuesta_correcta": "Sputnik 1",
+      "explicacion": "La respuesta correcta es Sputnik 1, ya que fue el primer satélite artificial lanzado al espacio por la Unión Soviética el 4 de octubre de 1957."
+    },
+    {
+      "enunciado": "¿Cuál es la capital de Australia?",
+      "opciones": [
+        "Sídney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "respuesta_correcta": "Canberra",
+      "explicacion": "La respuesta correcta es Canberra, ya que es la capital de Australia desde 1913, elegida para resolver la disputa entre Sídney y Melbourne, las dos ciudades más grandes del país."
+    },
+    {
+      "enunciado": "¿Quién escribió la obra de teatro 'Romeo y Julieta'?",
+      "opciones": [
+        "William Shakespeare",
+        "Federico García Lorca",
+        "Oscar Wilde",
+        "Anton Chejov"
+      ],
+      "respuesta_correcta": "William Shakespeare",
+      "explicacion": "La respuesta correcta es William Shakespeare, ya que es el autor de la famosa obra de teatro 'Romeo y Julieta', una de las tragedias más conocidas de la literatura universal."
+    }
+  ]
+}
