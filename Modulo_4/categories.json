@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Religión",
+    "description": "Preguntas relacionadas con religión, rituales, tradiciones y otras expresiones religiosas."
+  },
+  {
+    "category": "Educación",
+    "description": "Preguntas relacionadas con educación y programas de formación."
+  },
+  {
+    "category": "Salud",
+    "description": "Preguntas relacionadas con la salud, enfermedades, tratamientos."
+  },
+  {
+    "category": "Inmigración",
+    "description": "Preguntas relacionadas con la inmigración, paises afectados, población vulnerable y otros aspectos de la inmigración."
+  },
+  {
+    "category": "Deporte",
+    "description": "Preguntas relacionadas con eventos deportivos, personajes destacados."
+  },
+  {
+    "category": "AI",
+    "description": "Preguntas relacionadas con diferentes ramas de la Inteligencia artificial, avances y amenazas."
+  }
+]

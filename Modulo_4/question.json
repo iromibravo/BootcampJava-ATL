@@ -1,0 +1,8 @@
+{
+  "category": "Salud",
+  "question": "¿Cómo prevenir la desnutrición en menores de edad?",
+  "options": ["Control de vacunas", "Actividad deportiva", "Alimentación balanceada"],
+  "answer": 2,
+  "explanation": "Alimentación balanceada, consumir una variedad de alimentos que proporcionen los nutrientes necesarios para mantener un estado de salud óptimo."
+}
+
