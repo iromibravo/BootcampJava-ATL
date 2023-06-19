@@ -1,5 +1,4 @@
-package Clase_5;
-
+package Actividad_5;
 import java.util.Scanner;
 
 public class AdivinarNumero {
@@ -17,6 +16,6 @@ public class AdivinarNumero {
         } else {
             System.out.println("¡Número Incorrecto!");
         }
-//        System.out.println("El número era: "+" "+numeroAleatorio);
+       System.out.println("El número era: "+" "+numeroAleatorio);
     }
 }

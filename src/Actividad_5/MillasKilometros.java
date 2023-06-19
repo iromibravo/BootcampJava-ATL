@@ -1,5 +1,4 @@
-package Clase_5;
-
+package Actividad_5;
 import java.util.Scanner;
 
 public class MillasKilometros {

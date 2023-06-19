@@ -1,4 +1,4 @@
-package Clase_5;
+package Actividad_5;
 import java.util.Scanner;
 
 public class CalculadoraEdadPerro {
@@ -13,11 +13,7 @@ public class CalculadoraEdadPerro {
             System.out.println("La edad debe ser un número positivo.");
         } else {
             int edadHumana = edadPerro * 7;
-            System.out.println("La edad de su perro es: " + edadHumana+" "+"años");
+            System.out.println("La edad de su perro es: " + edadHumana+" "+"años edad humana");
         }
     }
 }
-
-
-
-
