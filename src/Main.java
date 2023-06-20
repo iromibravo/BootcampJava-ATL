@@ -1,17 +1,45 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import Actividad_10.Cuenta;
+import Actividad_10.Persona;
+
+import java.time.LocalDate;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Mayús+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        System.out.println("----------Datos Personales----------");
+        LocalDate fechaNacimiento1 = LocalDate.parse("1986-02-15");
+        Persona persona1 = new Persona("001","Iromi", 37,fechaNacimiento1, "147852369");
 
-            // Press Mayús+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        Cuenta cuenta1 = new Cuenta(persona1,0.0);
+        cuenta1.mostrar();
+        System.out.println("Es mayor de edad?:"+ " "+ persona1.esMayorDeEdad());
+
+        System.out.println("------------Consignación------------");
+        cuenta1.ingresar(20000.0);
+        cuenta1.mostrarSaldo();
+
+        System.out.println("---------------Retiro---------------");
+        cuenta1.retirar(15000.0);
+        cuenta1.mostrarSaldo();
+
+        System.out.println("/////////////////////////////////////");
+
+        System.out.println("----------Datos Personales----------");
+        LocalDate fechaNacimiento2 = LocalDate.parse("2007-02-15");
+        Persona persona2 = new Persona("002","Lucas", 16,fechaNacimiento2, "102563897");
+
+        Cuenta cuenta2 = new Cuenta(persona2,1000.0);
+        cuenta2.mostrar();
+        System.out.println("Es mayor de edad?:"+ " "+ persona2.esMayorDeEdad());
+
+
+        System.out.println("------------Consignación------------");
+        cuenta2.ingresar(-100.0);
+        cuenta2.mostrarSaldo();
+
+        System.out.println("---------------Retiro---------------");
+        cuenta2.retirar(1540.5);
+        cuenta2.mostrarSaldo();
     }
+
 }
