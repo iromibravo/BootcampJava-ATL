@@ -83,15 +83,5 @@ public class Persona {
         int mayorEdad = 18;
         return edad >= mayorEdad;
     }
-
-    public static void main(String[] args) {
-
-        System.out.println("------------Datos Personales--------------");
-        LocalDate fechaNacimiento = LocalDate.parse("1986-02-15");
-        Persona persona1 = new Persona("001","Iromi", 37,fechaNacimiento, "102563897");
-        persona1.mostrar();
-        System.out.println("Es mayor de edad?:"+ " "+ persona1.esMayorDeEdad());
-    }
-
 }
 
