@@ -70,27 +70,4 @@ public class Cuenta {
             System.out.println("Saldo: " + saldo + " $");
         }
     }
-
-    //Método Main
-    public static void main(String[] args) {
-        System.out.println("------------Cuenta ATL--------------");
-
-        LocalDate fechaNacimiento = LocalDate.parse("1986-02-15");
-        Persona titular = new Persona("002","Lucas", 37,fechaNacimiento, "102563897");
-        Cuenta cuenta = new Cuenta(titular,0.0);
-        cuenta.mostrar();
-
-        // Se ingresa dinero a la cuenta
-        System.out.println("------------Consignación------------");
-        cuenta.ingresar(1200.0);
-        //cuenta.ingresar(-100.0);
-        cuenta.mostrarSaldo();
-
-        // Se retira dinero de la cuenta
-        System.out.println("---------------Retiro---------------");
-        //cuenta.retirar(100.0);
-        cuenta.retirar(1300);
-        cuenta.mostrarSaldo();
-    }
-
 }
